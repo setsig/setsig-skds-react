@@ -126,3 +126,4 @@ export function parseSetsigError(status: number, data: { error_code?: string; me
 
   return new SetsigError(msg, code, status, data.details);
 }
+

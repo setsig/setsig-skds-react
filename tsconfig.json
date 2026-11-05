@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "react": ["../../setsig-console/node_modules/@types/react"],
+      "react/*": ["../../setsig-console/node_modules/@types/react/*"],
+      "react/jsx-runtime": ["../../setsig-console/node_modules/@types/react/jsx-runtime"],
+      "react-dom": ["../../setsig-console/node_modules/@types/react-dom"]
+    }
+  },
+  "include": ["src/**/*"]
+}

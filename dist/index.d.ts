@@ -11,4 +11,5 @@ export type { SetsigQRCodeProps } from "./components/SetsigQRCode.js";
 export { SetsigCameraCapture } from "./components/SetsigCameraCapture.js";
 export type { SetsigCameraCaptureProps } from "./components/SetsigCameraCapture.js";
 export type { SetsigConfig, KioskTokenData, Coordinates, VisualProofData, VerifySessionParams, VerifySessionResult, } from "./types.js";
+export * from "./errors.js";
 //# sourceMappingURL=index.d.ts.map

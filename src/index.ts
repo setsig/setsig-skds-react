@@ -31,3 +31,7 @@ export type {
   VerifySessionResult,
 } from "./types.js";
 
+// Domain Errors & Paywall Exceptions
+export * from "./errors.js";
+
+

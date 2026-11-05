@@ -8,4 +8,6 @@ export { useVisualProof } from "./hooks/useVisualProof.js";
 // Components
 export { SetsigQRCode } from "./components/SetsigQRCode.js";
 export { SetsigCameraCapture } from "./components/SetsigCameraCapture.js";
+// Domain Errors & Paywall Exceptions
+export * from "./errors.js";
 //# sourceMappingURL=index.js.map

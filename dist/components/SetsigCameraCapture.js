@@ -3,7 +3,7 @@ import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-run
 import * as React from "react";
 import { useVisualProof } from "../hooks/useVisualProof.js";
 /**
- * SetsigCameraCapture captures a photo via WebRTC camera and produces a Claim 10 SHA-256 visual proof.
+ * SetsigCameraCapture captures a photo via WebRTC camera and produces a cryptographic SHA-256 visual evidence proof.
  */
 export function SetsigCameraCapture({ venueId, onCaptured, onError, className = "", }) {
     const videoRef = React.useRef(null);

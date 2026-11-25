@@ -2,7 +2,7 @@
 import * as React from "react";
 import { useSetsigContext } from "../context.js";
 /**
- * useVisualProof computes Claim 10 SHA-256 digests on the client and uploads proofs.
+ * useVisualProof computes cryptographic SHA-256 digests on the client and uploads visual evidence proofs.
  */
 export function useVisualProof() {
     const { apiUrl, config } = useSetsigContext();

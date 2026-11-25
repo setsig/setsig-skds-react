@@ -13,7 +13,7 @@ export interface UseVisualProofReturn {
 }
 
 /**
- * useVisualProof computes Claim 10 SHA-256 digests on the client and uploads proofs.
+ * useVisualProof computes cryptographic SHA-256 digests on the client and uploads visual evidence proofs.
  */
 export function useVisualProof(): UseVisualProofReturn {
   const { apiUrl, config } = useSetsigContext();

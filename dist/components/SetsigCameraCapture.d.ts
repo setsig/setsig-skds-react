@@ -7,7 +7,7 @@ export interface SetsigCameraCaptureProps {
     className?: string;
 }
 /**
- * SetsigCameraCapture captures a photo via WebRTC camera and produces a Claim 10 SHA-256 visual proof.
+ * SetsigCameraCapture captures a photo via WebRTC camera and produces a cryptographic SHA-256 visual evidence proof.
  */
 export declare function SetsigCameraCapture({ venueId, onCaptured, onError, className, }: SetsigCameraCaptureProps): React.JSX.Element;
 //# sourceMappingURL=SetsigCameraCapture.d.ts.map

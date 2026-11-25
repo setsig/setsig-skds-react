@@ -118,7 +118,7 @@ export function CheckInButton({ venueId, tokenId }: { venueId: string; tokenId: 
 
 ---
 
-### 4. Forensic Visual Proof Capture (Claim 10 SHA-256)
+### 4. Cryptographic Visual Evidence Chain Capture (SHA-256)
 
 ```tsx
 "use client";

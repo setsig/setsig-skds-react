@@ -12,7 +12,7 @@ export interface SetsigCameraCaptureProps {
 }
 
 /**
- * SetsigCameraCapture captures a photo via WebRTC camera and produces a Claim 10 SHA-256 visual proof.
+ * SetsigCameraCapture captures a photo via WebRTC camera and produces a cryptographic SHA-256 visual evidence proof.
  */
 export function SetsigCameraCapture({
   venueId,

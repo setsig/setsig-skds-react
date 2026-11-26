@@ -54,6 +54,7 @@ export function useSetsigKiosk({
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${config.apiKey}`,
+          "X-Setsig-Client": "sdk-react/1.0.0",
         },
         body: JSON.stringify({
           venue_id: venueId,
